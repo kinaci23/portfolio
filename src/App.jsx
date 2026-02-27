@@ -9,7 +9,7 @@ import BGPattern from './components/ui/BgPattern'
 function App() {
   return (
     // relative ve min-h-screen ile kapsayıcıyı ayarlıyoruz
-    <div className="bg-neutral-950 text-neutral-50 font-sans relative min-h-screen">
+    <div className="bg-neutral-950 text-neutral-50 font-mono relative min-h-screen">
       
       {/* Harika grid arka planımız burada! Kenarlardan silikleşecek. */}
       <BGPattern variant="grid" mask="fade-bottom" />
